@@ -50,11 +50,11 @@ div {
     background-color: #e16baa;
     text-emphasis-color: #ff8800;
     width: auto;
-    margin-top: 240px;
+    margin-top: 260px;
 }
 .logo {
     text-align: left;
-    width: 500px;
+    width: 800px;
 }
 .banner {
     width: 1700px;
@@ -63,11 +63,27 @@ div {
 .searchbar {
     background-color:#FFDAC5;
     background-size: auto;
-    margin-left: -270px;
+    margin-left: -1300px;
     margin-top: -300px;
 
 }
 .magicon {
 position: absolute;
+
+}
+td {
+    border: 2px;
+} 
+input {
+    font-size:650%;
+    width:80%;
+    background-color: #FFDAC5;
+    border: 1px solid #ff0077;
+    display: block;
+    margin-top: -228px;
+    background-image: url('magiconpink.png');
+    background-repeat: no-repeat;
+   background-position: 1200px 40px;
+   background-size: 80px;
 
 }
