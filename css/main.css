@@ -8,13 +8,11 @@ p{
     color: #e4b577; 
     font-size: 2em;
 }
-h1 {
-    color: #ff8800;
+h1 { color: #ff8800;
     text-align: center;
     background-color: #f5b36c;
 }
-p { 
-    color: #ff8800;
+p { color: #ff8800;
     font-family: "Domine", serif;
     text-align: center;
     font-size: 30px;
@@ -23,21 +21,20 @@ p {
     text-transform: normal;
     text-decoration: underline dotted #e16baa;
     text-shadow: 1px 1px 5px #000000;
-    width: auto;
+
 }
 .hellooo {
     text-align: center;
-    color: #ff0077;
+    color: #ff8800;
     
 }
 .bottomlink {
     text-align: center;
     color: #ff8800;
 }
-div { 
-    color:#ff8800;
+
+div { color:#ff8800;
     text-align: center;
-    width: auto;
 
 }
 .topleftbox {
@@ -49,13 +46,7 @@ div {
 .wtprus {
     background-color: #e16baa;
     text-emphasis-color: #ff8800;
-    width: auto;
 }
 .logo {
     text-align: left;
-    width: 500px;
-}
-.banner {
-    width: 1700px;
-    height: 500px;
 }
