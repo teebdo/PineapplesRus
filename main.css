@@ -1,8 +1,48 @@
 /* Place CSS styles here */
 body{
-    color: #FFC300;
-    background-color: #F0FFF0;
+    color: #ff8800;
+    background-color: #FFDAC5;
     font-size: 30px;
-    background-image: url(../img/spongebobfamily.jpg);
 }
-h1{style="color: blue; font-size: 2em;"}
+p{
+    color: #e4b577; 
+    font-size: 2em;
+}
+h1 { color: #ff8800;
+    text-align: center;
+    background-color: #f5b36c;
+}
+p { color: #ff8800;
+    font-family: "Domine", serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 1000;
+    text-transform: normal;
+    text-decoration: underline dotted #e16baa;
+    text-shadow: 1px 1px 5px #000000;
+
+}
+.hellooo {
+    text-align: center;
+    color: #ff8800;
+    
+}
+.bottomlink {
+    text-align: center;
+    color: #ff8800;
+}
+div { color:#ff8800;
+    text-align: center;
+
+}
+.topleftbox {
+    background-color: #f5b36c;
+}
+.searchbar {
+    background-color: #f5b36c;
+}
+.wtprus {
+    background-color: #e16baa;
+    text-emphasis-color: #ff8800;
+}
