@@ -50,3 +50,16 @@ div { color:#ff8800;
 .logo {
     text-align: left;
 }
+
+input {
+    font-size: 650%;
+    width: 80%;
+    background-color: #FFDAC5;
+    border: 1px solid #ff0077;
+    display: block;
+    margin-top: -228px;
+    background-image: url(magiconpink.png);
+    background-repeat: no-repeat;
+    background-position: 1200px 40px;
+    background-size: 80px;}
+
