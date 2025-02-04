@@ -3,19 +3,16 @@ body{
     color: #ff8800;
     background-color: #FFDAC5;
     font-size: 30px;
-
 }
 p{
     color: #e4b577; 
     font-size: 2em;
 }
-h1 {
-    color: #ff8800;
+h1 { color: #ff8800;
     text-align: center;
     background-color: #f5b36c;
 }
-p { 
-    color: #ff8800;
+p { color: #ff8800;
     font-family: "Domine", serif;
     text-align: center;
     font-size: 30px;
@@ -24,67 +21,47 @@ p {
     text-transform: normal;
     text-decoration: underline dotted #e16baa;
     text-shadow: 1px 1px 5px #000000;
-    width: auto;
+
 }
 .hellooo {
     text-align: center;
-    color: #ff0077;
-    margin-top: 120px;
+    color: #ff8800;
     
 }
 .bottomlink {
     text-align: center;
     color: #ff8800;
 }
-div { 
-    color:#ff8800;
+
+div { color:#ff8800;
     text-align: center;
-    width: auto;
 
 }
 .topleftbox {
     background-color: #f5b36c;
 }
-
+.searchbar {
+    background-color: #f5b36c;
+}
 .wtprus {
     background-color: #e16baa;
     text-emphasis-color: #ff8800;
-    width: auto;
-    margin-top: 260px;
 }
 .logo {
     text-align: left;
-    width: 800px;
 }
-.banner {
-    width: 1700px;
-    height: 500px;
+.searchtable2 {
+    width: 100px
 }
-.searchbar {
-    background-color:#FFDAC5;
-    background-size: auto;
-    margin-left: -1300px;
-    margin-top: -300px;
-
-}
-.magicon {
-position: absolute;
-
-}
-td {
-    border: 2px;
-} 
 input {
-    font-size:650%;
-    width:80%;
+    font-size: 650%;
+    width: 80%;
     background-color: #FFDAC5;
     border: 1px solid #ff0077;
     display: block;
     margin-top: -228px;
-    background-image: url('magiconpink.png');
+    background-image: url(magiconpink.png);
     background-repeat: no-repeat;
-   background-position: 1200px 40px;
-   background-size: 80px;
-
-}
+    background-position: 1200px 40px;
+    background-size: 80px;}
 
