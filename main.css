@@ -1,4 +1,12 @@
-/* Place CSS styles here */
+/* Place CSS styles here always put margin 0 on h1's */
+header{
+    display: flex;
+}
+    
+ .hamburger{
+    margin-left: auto;
+ }   
+    
 body{
     color: #ff8800;
     background-color: #FFDAC5;
@@ -11,6 +19,7 @@ p{
 h1 { color: #ff8800;
     text-align: center;
     background-color: #f5b36c;
+    margin:0;
 }
 p { color: #ff8800;
     font-family: "Domine", serif;
@@ -49,11 +58,12 @@ div { color:#ff8800;
 }
 .logo {
     text-align: left;
+    width: 100px;
 }
-.searchtable2 {
-    width: 100px
-}
-input {
+.img {
+    max-width: 450px;
+  }
+/* input {
     font-size: 650%;
     width: 80%;
     background-color: #FFDAC5;
@@ -63,5 +73,33 @@ input {
     background-image: url(magiconpink.png);
     background-repeat: no-repeat;
     background-position: 1200px 40px;
-    background-size: 80px;}
+    background-size: 80px;} */
+    
+.searchbar {
+    background-color: #FF69B4;
+text-decoration-color: #FF69B4; 
+top: 50%;
+width:50%;
+display: flex;
+position: relative;
+left: 30%;}
 
+.icon-input {
+    margin: 0;
+    position: relative;
+    flex-grow: 1;
+    &__text-field{
+     
+    
+    }
+    &__icon{
+        color: rgba(0,0,0,1);
+        position: absolute;
+        top: 50%;
+        right: -2rem;
+        transform: translateY(-50%);
+    }
+    &__text-field:focus + &__icon{
+        color: #FF8400;
+    }
+}
