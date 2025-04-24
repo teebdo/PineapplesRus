@@ -1,4 +1,4 @@
-/* Place CSS styles here always put margin 0 on h1's */
+/* Place CSS styles here always put margin 0 on h1's margins auto on flex boxes*/
  
 header{
     display: flex;
@@ -8,7 +8,12 @@ body{
     background-color: #FFDAC5;
     font-size: 30px;
 }   
- .hamburger{
+
+
+
+
+
+.hamburger{
     margin-left: auto;
  }   
 nav {
@@ -30,6 +35,8 @@ nav {
     display: block;
     padding: 8px;
     background-color:#ffbf7a;
+    text-decoration-color:#ff8800 ;
+    color: #ff8800;
   }
   
   .bestsellers{
@@ -69,22 +76,11 @@ nav {
   .menu-toggle {
     background-color: #ffbf7a;
     text-decoration-color: #e16baa;
+    margin-left: auto;
   }
 
   @media (min-width: 768px) {
-  .offcanvas-nav {
-      display: block; /* Show the full navigation on larger screens */
-    }
-  .menu {
-      display: block; /* Ensure menu is visible on larger screens */
-      position: static; /* Remove fixed positioning */
-      width: auto;
-      transform: none; /* No need for transitions */
-      box-shadow: none;
-    }
-  .menu-toggle {
-      display: none; /* Hide the toggle button on larger screens */
-    }
+  /*  */
   }
 
 
