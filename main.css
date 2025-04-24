@@ -1,18 +1,95 @@
 /* Place CSS styles here always put margin 0 on h1's */
+ 
 header{
     display: flex;
 }
-    
- .hamburger{
-    margin-left: auto;
- }   
-    
 body{
     color: #ff8800;
     background-color: #FFDAC5;
     font-size: 30px;
+}   
+ .hamburger{
+    margin-left: auto;
+ }   
+nav {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color:#ffbf7a ;
+    height:60px;
 }
-p{
+  li{
+    display: inline;
+    background-color: #ffbf7a;
+    text-decoration-color:#fdfdfd;
+    float:left;
+  }
+  a {
+    display: block;
+    padding: 8px;
+    background-color:#ffbf7a;
+  }
+  
+  .bestsellers{
+   padding-left: 350px;
+
+  }
+  .contact{
+    padding-left: 500px;
+  }
+  .about{
+    padding-left: 400px;
+  }
+ 
+  .menu {
+    position: fixed; /* Fixed position for overlay effect */
+    top: 164px;
+    right: 0;
+    height: 100%;
+    width: 250px; /* Adjust width as needed */
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transform: translateX(100%); /* Initially slide out to the left */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+
+  @media (max-width: 768px) {
+    .menu {
+			flex-direction: column;
+			padding: 20px;
+		}
+	}
+
+  .menu.expanded {
+    transform: translateX(0); /* Slide in when expanded */
+  }
+
+  .menu-toggle {
+    background-color: #ffbf7a;
+    text-decoration-color: #e16baa;
+  }
+
+  @media (min-width: 768px) {
+  .offcanvas-nav {
+      display: block; /* Show the full navigation on larger screens */
+    }
+  .menu {
+      display: block; /* Ensure menu is visible on larger screens */
+      position: static; /* Remove fixed positioning */
+      width: auto;
+      transform: none; /* No need for transitions */
+      box-shadow: none;
+    }
+  .menu-toggle {
+      display: none; /* Hide the toggle button on larger screens */
+    }
+  }
+
+
+
+  p{
     color: #e4b577; 
     font-size: 2em;
 }
