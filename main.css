@@ -1,5 +1,8 @@
 /* Place CSS styles here always put margin 0 on h1's margins auto on flex boxes*/
- 
+ img{
+    width: 100%;
+    height: auto;
+ }
 header{
     display: flex;
 }
@@ -24,13 +27,10 @@ nav {
     text-align: center;
     background-color:#ffbf7a ;
     height:60px;
+    display: flex;
+    justify-content: space-between;
 }
-  li{
-    display: inline;
-    background-color: #ffbf7a;
-    text-decoration-color:#fdfdfd;
-    float:left;
-  }
+
   a {
     display: block;
     padding: 8px;
@@ -40,26 +40,26 @@ nav {
   }
   
   .bestsellers{
-   padding-left: 350px;
+  
 
   }
   .contact{
-    padding-left: 500px;
+ 
   }
   .about{
-    padding-left: 400px;
+   
   }
  
   .menu {
-    position: fixed; /* Fixed position for overlay effect */
+    position: fixed; 
     top: 164px;
     right: 0;
     height: 100%;
-    width: 250px; /* Adjust width as needed */
+    width: 250px;
     background-color: #fff;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-    transform: translateX(100%); /* Initially slide out to the left */
-    transition: transform 0.3s ease; /* Smooth transition */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); 
+    transform: translateX(100%); 
+    transition: transform 0.3s ease; 
   }
 
   @media (max-width: 768px) {
@@ -70,7 +70,7 @@ nav {
 	}
 
   .menu.expanded {
-    transform: translateX(0); /* Slide in when expanded */
+    transform: translateX(0); 
   }
 
   .menu-toggle {
@@ -82,9 +82,16 @@ nav {
   @media (min-width: 768px) {
   /*  */
   }
-
-
-  
+ 
+ .hamburgerinsides {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+   background-color: #ffbf7a;
+  }
   
   * {
     box-sizing: border-box;
@@ -97,11 +104,16 @@ nav {
   
   .carousel {
     position: relative;
-    width: 600px;
+    width: 100%;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    align-items: center;
+
+  }
+  .carosel-wrapper{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .carousel-track {
@@ -143,10 +155,122 @@ nav {
     background-color: rgba(0,0,0,0.7);
   }
  
- 
- 
- 
- 
+  .contact-container {
+    background-color: #ffdac5;
+    padding: 30px 40px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f2880f;
+  }
+ .section{
+    margin: 3rem 4rem 8rem;
+    display: block;
+    unicode-bidi: isolate;
+ }
+ .responsive ul{
+margin-left: 6rem;
+box-sizing: border-box;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 0.25rem;
+ }
+ul{
+    list-style: none;
+    margin: 0 0 0 2rem;
+    background: #f6f3ea;
+    box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4);
+ unicode-bidi: isolate;
+}
+ *{
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+ }
+ .grid-container{
+
+
+ }
+ li{
+    display: inline;
+    background-color: #ffbf7a;
+    text-decoration-color:#fdfdfd;
+    float:left;
+ }
+ .content-wrapper{
+    max-width:800px ;
+    margin-left: auto;
+    margin-right: auto;
+
+ }
+ .bestseller{
+    display: flex;
+    gap: 20px;
+ }
  
  
  
@@ -183,13 +307,13 @@ nav {
     font-size: 2em;
 }
 h1 { color: #ff8800;
-    text-align: center;
+    
     background-color: #f5b36c;
     margin:0;
 }
 p { color: #ff8800;
     font-family: "Domine", serif;
-    text-align: center;
+    
     font-size: 30px;
     font-style: normal;
     font-weight: 1000;
@@ -209,7 +333,7 @@ p { color: #ff8800;
 }
 
 div { color:#ff8800;
-    text-align: center;
+  
 
 }
 .topleftbox {
@@ -269,3 +393,47 @@ left: 30%;}
         color: #FF8400;
     }
 }
+/* OVERLAY */
+.overlay-wrapper {
+    position: relative;
+    max-width: 350px;
+    display: flex;
+  }
+  
+  .overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    background-color: rgba(127, 17, 224, .25);
+  }
+  
+  
+  .overlay-content:hover {
+    opacity: 1;
+  }
+  
+  /* END OVERLAY */
+  
+  
+  .grid-container a {
+    display: flex;
+    position: relative;
+    /* filter: grayscale(.5); */
+  }
+  
+  .grid-container a:hover {
+    /* filter: grayscale(1); */
+  }
+  
+  @media (min-width: 1000px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }

@@ -31,3 +31,11 @@ prevButton.addEventListener('click', () => {
 });
 
 window.addEventListener('resize', updateSlidePosition);
+
+document.getElementById('emailButton').addEventListener('click', () => {
+    window.location.href = 'mailto:yourname@example.com';
+  });
+  
+  document.getElementById('textButton').addEventListener('click', () => {
+    window.location.href = 'sms:+1234567890'; // Use your phone number here
+  });
